@@ -8,3 +8,192 @@ red - #ee5253
 
 */
 
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #0fb9b1;
+  width: 100%;
+  height: 67px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+}
+
+.header > h2 {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 25px;
+}
+
+.button-position {
+  display: flex;
+  padding: 15px;
+}
+
+.button-position > button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+span {
+  color: #ee5253;
+}
+
+
+.background-img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.squares {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  top: 110px
+}
+
+.box {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.box2 {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(225, 225, 225, .9);
+}
+
+.box:nth-child(1) {
+  background-color: rgba(225, 225, 225, .9);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+
+
+.box2 > .cookpot-image {
+  height: 150px;
+  width: auto;
+}
+
+
+
+.box2 > p {
+  font-size: 40px;
+}
+
+.box2 > h1 {
+  font-size: 20px;
+}
+
+.box > h1 {
+  font-size: 30px;
+}
+.radio-button-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.radiobutton {
+  display: flex;
+}
+
+.box > .lets-cook-button {
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #0fb9b1;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+}
+
+.footer {
+  display: none;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(225, 225, 225, .9);
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-section > form {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: auto;
+  justify-content: left;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.recipe-type-input > select {
+  padding: 7px;
+  font-size: 20px;
+
+}
+
+.recipe-type-input > label {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.recipe-name-input-section > input {
+  padding: 10px;
+}
+
+.recipe-name-input-section > label {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.add-new-button {
+  background-color: #0fb9b1;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.add-new-button-styling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* padding-left: 20px; */
+}

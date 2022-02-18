@@ -4,7 +4,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-    
+    <img class="background-img" src="assets/burger-friends.jpg" alt="people sitting around a table of food">
+    <section class="header">
+      <h2>What's for Dinner?</h2>
+      <div class="button-position">
+      <button class="add-a-recipe-button"><b>ADD A RECIPE</b></button>
+      </div>
+    </section>
+    <section class="squares">
+      <div class="box">
+        <h1>What are you looking for?<span>*</span></h1>
+        <div class="radio-button-area">
+          <div class="radiobutton1">
+         <input class="radiobuttoninput1" type="radio" id="button1">
+         <label for="button1">Side</label>
+       </div>
+       <br>
+       <div class="radiobutton2">
+         <input class="radiobuttoninput2" type="radio" id="button2">
+         <label for="button2">Main Dish</label>
+       </div>
+       <br>
+       <div class="radiobutton3">
+         <input class="radiobuttoninput3" type="radio" id="button3">
+         <label for="button3">Dessert</label>
+       </div>
+       </div>
+        <button class='lets-cook-button'>LET'S COOK!</button>
+      </div>
+      <div class="box2">
+        <img class="cookpot-image" src="assets/cookpot.svg" alt="line art of a cook pot">
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-section">
+          <form>
+            <div class="recipe-type-input">
+            <label for="recipe-type">Recipe Type:</label>
+            <select class="recipe-type-form" name="recipe-type">
+              <option value="side">Side</option>
+              <option value="main-dish">Main Dish</option>
+              <option value="dessert">Dessert</option>
+            </select>
+            </div>
+            <div class="recipe-name-input-section">
+            <label for="recipe-name">Recipe Name:</label>
+            <input class="recipe-name-input" type="text" id="recipe-name" name="recipe-name">
+            </div>
+
+          </form>
+          
+          <div class="add-new-button-styling">
+          <button class="add-new-button">ADD NEW</button>
+          </div>
+        </div>
+    </section>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
